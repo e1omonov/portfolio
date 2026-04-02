@@ -1,0 +1,194 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Public Sans", sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 200px;
+    background-color: black;
+    background-color: rgba(0, 0, 0, 0.527);
+    backdrop-filter: blur( 50px);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.header-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+    
+}
+.img{
+  width: 150px;
+  height: 100px;
+
+}
+.img:hover{
+  transition: 0.8s;
+  transform: scale(1.5);
+}
+.header-list-item{
+      position: relative;
+      transition: 0.3s;
+      color: aqua;
+   }
+   .header-list-item::after{
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 0%;
+      height: 2px;
+      background-color: aqua;
+      transition: 0.3s;
+   }
+   .header-list-item:hover::after{
+      width: 100%;
+   }
+
+   .h1{
+    color: aqua;
+    transition: 0.4s; 
+    
+   }
+   .h1:hover{
+    transform: scale(1.6);
+   }
+   body{
+    background-color: black;
+   }
+   .assalomualeykum{
+    color: white;
+    margin-bottom: 15px;
+   }
+   .p{
+    color: white;
+    margin-bottom: 10px;
+   }
+   .pdpjunior{
+    color: aqua;
+   }
+   .img2{
+    width: 300px;
+   border-radius: 500px 500px 500px 500px;
+}
+ 
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 80vh;
+}
+.div-p{
+    padding: 20px;
+    border-radius: 30px;
+    width: 200px;
+    background-color: rgb(31, 30, 30) ;
+  
+}
+.div-p:hover{
+    box-shadow: 5px 10px 50px  aqua;
+    transition: 0.4s;
+
+}
+.color{
+    color: white;
+    line-height: 30px;
+}
+h3{
+    color: aqua;
+}
+.about-section{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    flex-direction: column;
+    
+}
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+    position: relative;
+}
+.left-cards{
+   border-right: 5px solid aqua;
+   padding-right: 200px;
+   padding: 50px 200px 50px 0px;
+   
+    
+}
+.span{
+    width: 30px;
+    background-color: aqua;
+    height: 30px;
+    position: absolute;
+    border-radius: 50%;
+    box-shadow: 10px 5px 50px aqua;
+}
+.span1{
+    top: 50px;
+}
+.span2{
+  top: 410px;  
+
+}
+.span3{
+    top: 710px;
+}
+.right-cards{
+
+}
+.left-top-card{
+    margin-bottom: 350px;
+}
+.section-h2{
+    font-size: 70px;
+    color: aqua;
+}
+.img2{
+    transition: 0.3s;
+    box-shadow:-2px 2px 40px aqua ;
+}
+
+.img2:hover{
+  box-shadow: -2px 2px 80px aqua;
+  
+}
+.home-sci a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border: 2px solid rgb(255, 153, 0);
+  border-radius: 50%;
+  margin: 10px 10px 10px 0;
+  color: rgb(255, 153, 0);
+  transition: 0.3s;
+  
+}
+
+.home-sci a:hover {
+  background: rgb(255, 153, 0);
+  color: #081b29;
+  box-shadow: 0 0 15px rgb(255, 153, 0);
+}
+.button{
+    width: 100px;
+    height: 50px;
+    border-radius: 80px;
+    color: rgb(2, 2, 2);
+    background-color: aqua;
+    
+}
