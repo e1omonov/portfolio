@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mode{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     flex-direction: column;
+     gap: 50px;
+ }
+ .nom{
+    list-style: none;
+    display: flex;
+    gap: 100px;
+ }
+.hero{
+    background-image: url('./river-6519572_1280\ 1.png');
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.i{
+    font-size: 60px;
+    color: white;
+}
+.b{
+    font-size: 35px;
+    color: white;
+}
+.ir{
+    font-size: 25px;
+}
+.about{
+    font-size: 40px;
+    margin-bottom: 55px;
+
+}
+.father-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+.about-section{
+    padding: 20px 100px;
+}
+.rasm:hover{
+    transition: 0.8s;
+    transform: rotate(120deg);
+    background-color: rgb(2, 3, 3);
+}

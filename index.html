@@ -1,80 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./index.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 <body>
-    <header class="header">
-            <img class="img" src="./10592a04-e033-4bec-944e-7e021448b211_removalai_preview.png" alt="logo">
+    <input type="checkbox" id="toggle-theme">
 
-            <nav>
-                <ul class="header-list">
-                   <a href=""><li class="header-list-item" >Bosh Sahifa</li></a> 
-                   <a href="./mening guruhim.html"><li class="header-list-item" >Mening Guruhim</li></a>
-                   <a href="./oilam.html"><li class="header-list-item" >Oilam</li></a>
-                   <a href="./Loyihalarim.html"><li class="header-list-item" >Loyihalarim</li></a>
-                   <a href="./jamodoshlarim.html"><li class="header-list-item" >Jamodoshlarim</li></a>
-                </ul>
-            </nav>
-        </header>
-         
+    <header class="header theme">
+        <img class="img" src="./10592a04-e033-4bec-944e-7e021448b211_removalai_preview.png" alt="logo">
+        
+        <nav>
+            <ul class="header-list">
+                <a class="link" href="./index.html">
+                    <li class="header-list-item">Bosh Sahifa</li>
+                </a>
+                <a class="link" href="./mening guruhim.html">
+                    <li class="header-list-item">Mening Guruhim</li>
+                </a>
+                <a class="link" href="./oilam.html">
+                    <li class="header-list-item">Oilam</li>
+                </a>
+                <a class="link" href="./Loyihalarim.html">
+                    <li class="header-list-item">Loyihalarim</li>
+                </a>
+                <a class="link" href="./bog'lanish.html">
+                    <li class="header-list-item">Bog'lanish</li>
+                </a>
+                <li>
+                    <label for="toggle-theme">
+                        <i class="fa-solid fa-circle-half-stroke stroke"></i>
+                    </label>
+                </li>
+            </ul>
+        </nav>
+    </header>
 
-        <main>
-            <section class="hero">
-                <div class="hero-texts">
-                   <h1 class="assalomualeykum"> Assalomu Aleykum!</h1>
-                   <h1 class="h1">Men Web Dasturchi</h1>
-                   <p class="p">Dasturlash Hayotiga Ilk Qadamimni <p class="pdpjunior">PDP JUNIOR </p><p class="p">bilan  boshladim.Dasturlash hayotimga bir qismiga, <br> Futbool esa Ikkinchi Oilamga Aylanib bolgan. </p>
-                    <a href="./bog'lanish.html"><button class="button">Men bilan bog'lanish</button></a>
-                </div>
-                
-                <img class="img2" src="./photo2.jpg" alt="">
-            </section>
-            <section class="about-section">
-                <h2 class="section-h2">Mening Qiziqishlarim!</h2>
-                
-                <div class="cards">
-                    <span class="span span1"></span>
-                    <span class="span span2"></span>
-                    <span class="span span3"></span>                
-                    <div class="left-cards">
-                        <div class="left-top-card">
-                            <h3 class="h3">2024</h3>
-                            <div class="div-p">
-                              <p class="color">
-                                2024 yil men bunyodkor futbool   acedemiyasiga  bordim   va u yerda koplab mashgulotlar   qilib futbool  oynashni organmdim  va yangi dostlar ortirdim.
-                              </p>
-                            </div>
-                        </div>
-                        
-                        <div>
-                            <h3 class="h3">2026</h3>
-                            <div class="div-p">
-                              <p class="color">
-                                2026 yil esa stool tennis sport turini o'rganmdm va musobaqalarga chiqib keldm 1tasida 3 o'rin 1tasida esa 1'orini oldm. Keyin yana Samarqand Shahriga borib .Hardoyimgidek Chempion bolib keldm
-                              </p>
-                            </div>
-                        </div>
+
+    <main class="main theme">
+        <section class="hero theme">
+            <div class="hero-texts">
+                <h1 class="assalomualeykum"> Assalomu Aleykum!</h1>
+                <h1 class="h1">Men Web Dasturchi</h1>
+                <p class="p">Dasturlash Hayotiga Ilk Qadamimni
+                <p class="pdpjunior">PDP JUNIOR </p>
+                <p class="p">bilan boshladim.Dasturlash hayotimga bir qismiga, <br> Futbool esa Ikkinchi Oilamga Aylanib
+                    bolgan. </p>
+                <div class="div-father-iconca" >
+                    <div class="div-instagram">
+                        <i  class="fa-brands fa-instagram instagram"  ></i> 
                     </div>
-    
-                    <div class="right-cards">
-                        <div>
-                            <h3 class="h3">2025</h3>
-                            <div class="div-p">
-                              <p class="color">
-                                2025 yil men bunyodkor jamodoshlarim bilan birga Buxoro shaxriga borib 2- o'rini olib keldm va Ota onamni Hursand Qildm.
-                              </p>
-                            </div>
-                        </div>
-    
+                    <div class="div-instagram">
+                      <i class="fa-brands fa-telegram instagram"></i>
+                    </div>
+                    <div class="div-instagram">
+                       <i class="fa-brands fa-github instagram"></i>
                     </div>
                 </div>
-            </section>
-        </main>
-       
-       
+                <a href="./bog'lanish.html"><button class="button">
+                        <h4>bog'lanish</h4>
+                    </button></a>
+            </div>
+
+            <img class="img15" src="./photo2.jpg" alt="">
+        </section>
+        <section class="about-section">
+            <h2 class="section-h2">Mening Qiziqishlarim!</h2>
+
+            <div  class="cards">
+                <span class="span span1"></span>
+                <span class="span span2"></span>
+                <span class="span span3"></span>
+                <div  class="left-cards">
+                    <div data-aos="zoom-in" class="left-top-card">
+                        <h3 class="h3">2024</h3>
+                        <div  class="div-p">
+                            <p class="color">
+                                2024 yil men bunyodkor futbool acedemiyasiga bordim va u yerda ko'plab mashgulotlar
+                                qilib futbool o'ynashni o'rganmdim va yangi do'stlar ortirdim.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div data-aos="zoom-in">
+                        <h3 class="h3">2026</h3>
+                        <div  class="div-p">
+                            <p class="color">
+                                2026 yil esa stol tenis sport turini o'rganmdm va musobaqalarga chiqib keldm 1-tasida
+                                3-o'rin 1-tasida esa 1-o'rini oldm. Keyin yana Samarqand Shahriga borib .Hardoyimgidek
+                                Chempion bolib keldm.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div data-aos="zoom-in" class="right-cards">
+                    <div>
+                        <h3 class="h3">2025</h3>
+                        <div class="div-p">
+                            <p class="color">
+                                2025 yil men bunyodkor jamodoshlarim bilan birga Buxoro shaxriga borib 2- o'rini olib
+                                keldm va Ota onamni Hursand Qildm.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </body>
+
 </html>

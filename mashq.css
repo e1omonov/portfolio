@@ -1,0 +1,45 @@
+.mode{
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  list-style: none;
+  font-size: 30px;
+  justify-content: space-between;
+  padding: 20px 100px;
+  height: 150p;
+  background-color: black;
+  
+}
+.box{
+     font-size: 50px;
+     font-weight: 300;
+     color: white;
+    
+}
+.oq{
+    color: white;
+}
+body{
+    background-image: url(https://i.ytimg.com/vi/FtZ-P2iz-M8/maxresdefault.jpg);
+}
+.bo{
+    color: white;
+    font-size: 24px;
+}
+.hero{
+   border: none;
+   padding: 20px 89px;
+   border-radius: 30px;
+   font-size: 18px;
+   font-weight: bold;
+}
+.hero2{
+    border: none;
+   padding: 20px 89px;
+   border-radius: 30px;
+   font-size: 18px;
+   font-weight: bold;
+   background-color: fuchsia; 
+}
+
+

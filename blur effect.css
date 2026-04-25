@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nom{
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  list-style: none;
+}
+.mode{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+  padding: 20px 100px;
+  background-color: rgba(213, 130, 6, 0.426);
+  backdrop-filter: blur(5px);
+  position: sticky;
+  top: 0;
+}
+body{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/c/c8/Altja_j%C3%B5gi_Lahemaal.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.section{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    color: white;
+
+}
+.border-radius{
+    border-radius: 40% 80% 85% 60%;
+    width: 300px;
+    height: 400px;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+     
+}
+.border-radius:hover{
+    background-color: rgba(245, 9, 9, 0.495);
+    backdrop-filter: blur(2px);
+    transition: 0.5px;
+}
+.button{
+    padding: 8px 30px;
+    border: none;
+    border-radius: 30px;
+    background-color: dodgerblue;
+    color: white;
+}
+.button:hover{
+  background-color: brown;
+  transition: 0.4px;
+}

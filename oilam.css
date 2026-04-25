@@ -1,0 +1,150 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Public Sans", sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 200px;
+    background-color: rgba(0, 0, 0, 0.322);
+    background-color: rgba(0, 0, 0, 0.288);
+    backdrop-filter: blur( 50px);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.header-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+    
+}
+.img{
+  width: 150px;
+  height: 100px;
+
+}
+.img:hover{
+  transition: 0.8s;
+  transform: scale(1.5);
+}
+.header-list-item{
+      position: relative;
+      transition: 0.3s;
+      color: aqua;
+   }
+   .header-list-item::after{
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 0%;
+      height: 2px;
+      background-color: aqua;
+      transition: 0.3s;
+   }
+   .header-list-item:hover::after{
+      width: 100%;
+   }
+ body{
+    background-color: black;
+ }
+ .img4{
+    width: 700px;
+    height: 400px;
+    box-shadow: 1px 1px 10px aqua;
+    border-radius: 60%;
+    transition: 0.5s;
+    
+ }
+ .oilam-div{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+ }
+ .oilam{
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 40px;
+ }
+ 
+
+ .oilam-cards{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 50px 0;
+
+}
+
+ .oilam-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+ }
+ .img4:hover{
+    transform: scale(1.1);
+    box-shadow: 5px 5px 60px aqua;
+ }
+.img6{
+    border-radius: 70%;
+    width: 400px;
+    height: 400px;
+    box-shadow: 1px 1px 20px aqua;
+    transition: 0.5s;
+    object-fit: cover;
+}
+.box{
+    color: aqua;
+    
+}
+.box2{
+    color: white;
+}
+.img6:hover{
+ transform: scale(1.1);
+ box-shadow: 3px 3px 30px aqua;
+ 
+}
+.teg-div{
+    align-content: center;
+    justify-content: center;
+}
+:root {
+    --accent-color: #00d2ff;
+    --bg-dark: #050801;
+}
+
+#toggle-theme{
+    display: none;
+}
+#toggle-theme:checked ~ .theme{
+   background: linear-gradient(135deg, #f59e0b, #34d399) ;
+    transform: translate(-100%  100%);
+    transform: translate(0,0);
+    color: rgb(0, 0, 0);
+}
+
+.stroke{
+    color: aqua;
+}
+#toggle-theme:checked ~ .theme{
+    background: linear-gradient(135deg, #f59e0b, #34d399) ;
+    transform: translate(-100%  100%);
+    transform: translate(0,0);
+    color: rgb(0, 0, 0);
+}
+
+#toggle-theme{
+    display: none;
+}

@@ -1,0 +1,43 @@
+.txet{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    height: 100vh;
+   
+}
+.live{
+    width: 400px;
+    background-color: rgb(90, 83, 83);
+    border-radius: 20px;
+    box-shadow: 40px 30px   20px  rgb(0, 0, 0);
+}
+.rasm{
+    width: 400px;
+    border-radius: 20px 20px 0px 0px;
+    height: 40vh;
+}
+.rang{
+  padding: 20px;
+}
+.read{
+    background-color: indigo;
+    padding: 10px;
+    border-radius:20px;
+}
+.txet{
+    display: flex;
+    text-shadow: 5px 5px 10px black;
+}
+.dollor{
+    color: aqua;
+}
+.lorem{
+    color: white;
+}
+.qalam{
+    color: mediumvioletred;
+}
+body{
+    background-color: rgb(6, 252, 68);
+}
