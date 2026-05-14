@@ -321,3 +321,6 @@ h3 {
 .stroke{
     color: aqua;
 }
+.theme{
+    transition: 0.4s;
+}
